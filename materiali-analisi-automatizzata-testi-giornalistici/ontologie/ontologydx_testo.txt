@@ -1,0 +1,284 @@
+#Classi
+:ConcettoPolitico è una classe che rappresenta un tema politico trattato, come per esempio l’immigrazione, la sicurezza, l’ambiente o l’economia.
+:ValorePolitico è una classe che identifica un valore o principio ideologico, come la libertà, l’uguaglianza, la sovranità nazionale o la giustizia sociale.
+:OrientamentoPolitico è una classe usata per definire l’orientamento politico generale, come la destra, la sinistra o il centro, a cui si riconducono posizioni e valori.
+:PosizionePolitica è una classe che descrive una presa di posizione specifica su un concetto politico, ad esempio “è favorevole al nucleare” oppure “si oppone alla tassa patrimoniale”.
+:LivelloDiConsensoPolitico è una classe che indica il livello interno di consenso su una data posizione all’interno di uno schieramento o partito politico (ad esempio: alto, basso, divisivo).
+
+
+#Proprietà
+:posizioneDi è una proprietà che collega una posizione politica a un orientamento politico. Ad esempio, se una certa posizione è favorevole alla pena di morte, questa proprietà può indicare che tale posizione appartiene all’area politica di destra.
+:suConcetto è una proprietà che specifica il concetto politico a cui si riferisce una posizione. Per esempio, una posizione può riguardare il concetto di "sicurezza urbana" o di "diritti civili".
+:orientataSuValore è una proprietà che associa una posizione politica a un valore ideologico. Per esempio, sostenere il taglio delle tasse può essere orientato sul valore della "libertà economica".
+:consensoInterno è una proprietà che descrive il livello di consenso interno a uno schieramento o partito rispetto a una posizione politica. I livelli possono essere “alto”, “medio” o “basso”.
+
+#Orientamento
+:Destra è un orientamento politico generale. Nel contesto di questa ontologia, rappresenta le posizioni, i concetti e i valori tipicamente associati alla destra politica italiana.
+
+#Istanze di Concetto politico
+Gender è un concetto politico che riguarda le questioni legate all'identità di genere e alla sua rappresentazione nel dibattito pubblico.
+
+LGBTQ è un concetto politico che si riferisce ai diritti, alla visibilità e al trattamento delle persone lesbiche, gay, bisessuali, transgender e queer.
+
+CambioSesso è un concetto politico che coinvolge i dibattiti normativi, etici e sociali relativi alla transizione di genere.
+
+UE rappresenta l’Unione Europea come concetto politico, spesso al centro di discussioni su sovranità nazionale, regolamentazioni e integrazione.
+
+GreenDeal è un concetto politico legato alle politiche ambientali europee per la transizione ecologica e la sostenibilità.
+
+DaziInterniUe è un concetto politico riferito alle dinamiche di mercato e ai conflitti commerciali tra gli Stati membri dell’UE.
+
+Burocrazia è un concetto politico che fa riferimento alle strutture amministrative e alla loro efficienza o inefficienza percepita.
+
+Automotive è un concetto politico rilevante per le implicazioni industriali, ambientali e occupazionali nel settore automobilistico.
+
+PNRR (Piano Nazionale di Ripresa e Resilienza) è un concetto politico legato all’uso dei fondi europei per la ripresa post-pandemica.
+
+MercatoUnico è un concetto politico riferito alla libera circolazione di beni, persone, servizi e capitali nell’UE.
+
+Ambiente è un concetto politico che riguarda la tutela della natura, la sostenibilità ecologica e le politiche climatiche.
+
+Industria è un concetto politico relativo al sostegno, alla regolazione e alla competitività del settore produttivo nazionale.
+
+Gas è un concetto politico che include tematiche energetiche, geopolitiche e ambientali connesse all’approvvigionamento e consumo di gas.
+
+Rinnovabili è un concetto politico che riguarda l’adozione di fonti energetiche alternative e la transizione ecologica.
+
+CrisiEnergetica è un concetto politico che descrive situazioni di instabilità o scarsità nell’approvvigionamento energetico.
+
+GermaniaFrode è un concetto politico che si riferisce a scandali o accuse legati alla Germania, spesso utilizzati in chiave polemica.
+
+Cina è un concetto politico centrale nel dibattito su geopolitica, economia globale e sicurezza.
+
+Trump è un concetto politico che rappresenta la figura dell’ex presidente USA come simbolo di una certa visione conservatrice o populista.
+
+DifesaEuropea è un concetto politico che riguarda la cooperazione militare e strategica tra i paesi europei.
+
+Meloni è un concetto politico che si riferisce alla figura politica di Giorgia Meloni, spesso evocata in relazione alla destra italiana.
+
+Sinistra è un concetto politico usato per indicare lo schieramento progressista o riformista.
+
+Elite è un concetto politico frequentemente utilizzato in chiave critica o polemica per indicare gruppi ritenuti distanti dal popolo.
+
+Thunberg è un concetto politico associato alla figura di Greta Thunberg e al movimento per il clima.
+
+DLsicurezza è un concetto politico che si riferisce ai decreti sicurezza e alle politiche di ordine pubblico.
+
+ImmobiliOccupati è un concetto politico connesso al tema della legalità, del diritto alla casa e degli sgomberi.
+
+ForzeOrdine è un concetto politico che riguarda il ruolo e le azioni delle forze di polizia e militari.
+
+Carceri è un concetto politico relativo alla giustizia penale, alla detenzione e ai diritti dei detenuti.
+
+Migranti è un concetto politico centrale nei dibattiti su immigrazione, accoglienza e controllo dei confini.
+
+Clima è un concetto politico riferito al cambiamento climatico e alle strategie per affrontarlo.
+
+Canapa è un concetto politico che riguarda l’uso, la legalizzazione e la regolazione della cannabis.
+
+ConcezioneVita è un concetto politico che coinvolge questioni bioetiche come l’aborto, l’eutanasia e la tutela del nascituro.
+
+UteroAffitto è un concetto politico relativo alla gestazione per altri, tema oggetto di forti polarizzazioni.
+
+SuicidioAssistito è un concetto politico che attiene al dibattito bioetico e legislativo sul fine vita.
+
+Feto è un concetto politico rilevante nei dibattiti su aborto e diritti del nascituro.
+
+CurePalliative è un concetto politico connesso alla gestione del dolore e alla dignità della vita nel fine vita.
+
+MaternitàOmogenitoriali è un concetto politico relativo ai diritti delle coppie omosessuali nell’accesso alla genitorialità.
+
+Giudici è un concetto politico che tocca i temi dell’indipendenza della magistratura e del suo ruolo nella società.
+
+Fede è un concetto politico che implica il ruolo della religione nel dibattito pubblico e nelle istituzioni.
+
+AI (intelligenza artificiale) è un concetto politico emergente legato all’etica, al lavoro e alla sicurezza.
+
+Bonus è un concetto politico che si riferisce a misure economiche di sostegno o incentivo da parte dello Stato.
+
+Premierato è un concetto politico che riguarda la forma di governo e la centralità del capo del governo.
+
+Presidenzialismo è un concetto politico che si riferisce a proposte di riforma costituzionale volte a rafforzare il potere esecutivo.
+
+CorteCostituzionale è un concetto politico relativo all’organo di garanzia della costituzionalità delle leggi.
+
+CittadinanzaImmigrati è un concetto politico che riguarda i criteri e i diritti legati alla cittadinanza per persone immigrate.
+
+Referendum è un concetto politico che riguarda lo strumento della consultazione popolare diretta su questioni legislative.
+
+Risparmi è un concetto politico legato alla tutela del risparmio, alla tassazione e alla sicurezza economica delle famiglie.
+
+TFR (trattamento di fine rapporto) è un concetto politico connesso al lavoro e alla previdenza.
+
+DifesaAngloamericana è un concetto politico che riguarda l’alleanza con paesi come Stati Uniti e Regno Unito in ambito difensivo.
+
+Gaza è un concetto politico connesso al conflitto israelo-palestinese e alle posizioni internazionali su tale tema.
+
+ForzeOrdineManifestazioni è un concetto politico che riguarda il comportamento delle forze dell’ordine durante proteste pubbliche.
+
+GovernoMeloni è un concetto politico che designa l’attuale esecutivo italiano, con riferimento alle sue politiche e alla sua identità.
+
+Centrosinistra è un concetto politico che identifica l’area moderata della sinistra e i suoi partiti di riferimento.
+
+Terrorismo è un concetto politico legato alla sicurezza nazionale e alla gestione delle minacce interne ed esterne.
+
+UniversitàUSA è un concetto politico evocato nei dibattiti su cultura woke, ideologie progressiste e modelli accademici esteri.
+
+DdlZan è un concetto politico riferito al disegno di legge contro l’omotransfobia, spesso al centro di scontri ideologici.
+
+TransSport è un concetto politico relativo alla partecipazione delle persone transgender nelle competizioni sportive.
+
+DissensoSelettivo è un concetto politico che descrive il fenomeno di denunciare solo alcune violazioni, ignorandone altre simili.
+
+#Istanze di Valore Politico
+Ordine è un valore politico associato alla stabilità sociale, alla disciplina e al rispetto delle regole come fondamento della convivenza.
+
+Sovranismo è un valore politico che enfatizza la centralità dello Stato nazionale e la limitazione dell’influenza sovranazionale, in particolare dell’UE.
+
+FamigliaTradizionale è un valore politico che difende il modello familiare fondato sull’unione eterosessuale come nucleo fondamentale della società.
+
+LiberoMercato è un valore politico che promuove la riduzione dell’intervento statale nell’economia e la libertà d’impresa.
+
+AntiBurocrazia è un valore politico che si oppone all’eccessiva regolamentazione amministrativa, vista come ostacolo allo sviluppo.
+
+DifesaNazionale è un valore politico legato alla protezione dei confini, al rafforzamento delle forze armate e alla sovranità militare.
+
+Vita è un valore politico che difende la sacralità e la tutela della vita umana dal concepimento fino alla morte naturale.
+
+Religione è un valore politico che sottolinea l’importanza della fede religiosa come guida morale e culturale per la società.
+
+SicurezzaPubblica è un valore politico centrato sulla protezione dei cittadini da minacce interne ed esterne, attraverso il rafforzamento delle forze dell’ordine.
+
+AntiGreen è un valore politico che si oppone a politiche ambientali ritenute troppo rigide o dannose per l’economia e le libertà individuali.
+
+DifesaIndustria è un valore politico che tutela la produzione nazionale, la manifattura e l’indipendenza industriale dell’Italia.
+
+AntiGender è un valore politico che critica l’ideologia di genere, sostenendo una visione binaria e biologica dei ruoli sessuali.
+
+Autorità è un valore politico che riconosce l’importanza del rispetto per le istituzioni e per le figure di comando come principio di ordine.
+
+CentralitàPersona è un valore politico che pone l’individuo al centro della società e delle decisioni politiche, opponendosi a visioni collettiviste.
+
+Tradizione è un valore politico che valorizza le radici storiche, culturali e identitarie della nazione come elementi da conservare e trasmettere.
+
+Legalità è un valore politico che esalta il rispetto delle leggi e il contrasto a ogni forma di illegalità diffusa.
+
+Responsabilità è un valore politico che promuove l’idea che ogni individuo e istituzione debba rispondere delle proprie azioni in modo etico e trasparente.
+
+AntiImmigrazione è un valore politico che auspica un controllo più rigido dei flussi migratori, spesso motivato da ragioni di sicurezza e coesione sociale.
+
+Controllo è un valore politico che richiama l’importanza della regolazione e del monitoraggio di comportamenti e fenomeni considerati rischiosi.
+
+EconomiaSana è un valore politico che sottolinea la necessità di una gestione economica sobria, con bilanci equilibrati e riduzione del debito pubblico.
+
+Patriottismo è un valore politico che promuove l’orgoglio nazionale, l’amore per la patria e la difesa dell’identità italiana.
+
+Anticomunismo è un valore politico che si oppone alle ideologie di sinistra radicale, evocando la difesa delle libertà individuali e dell’economia di mercato.
+
+Onore è un valore politico tradizionale che richiama l’integrità morale, il rispetto di sé e della parola data.
+
+RealismoPolitico è un valore politico che rifiuta idealismi e utopie, ponendo l’accento sull’interesse nazionale e sulla concretezza delle decisioni.
+
+Riarmo è un valore politico che sostiene l’investimento nella difesa e il rafforzamento delle capacità militari nazionali ed europee.
+
+AntiElite è un valore politico che contesta il potere delle élite economiche, politiche o culturali, considerate distanti dai bisogni reali del popolo.
+
+Populismo è un valore politico che rivendica la centralità del “popolo” contro le istituzioni e i poteri consolidati, presentandosi come voce autentica della maggioranza.
+
+SeparazionePoteri è un valore politico che difende l’autonomia tra potere esecutivo, legislativo e giudiziario come principio cardine della democrazia.
+
+ProIsraele è un valore politico che esprime una posizione favorevole allo Stato di Israele, spesso in chiave geopolitica o identitaria.
+
+#Istanze di Posizione Politica specifica
+
+La posizione 'DestraGender' è attribuita alla destra e riguarda il concetto politico di 'Gender'. Essa richiama i valori di Ordine, Tradizione e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraLGBTQ' è attribuita alla destra e riguarda il concetto politico di 'LGBTQ'. Essa richiama i valori di DifesaIndustria e Patriottismo. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraUE' è attribuita alla destra e riguarda il concetto politico di 'UE'. Essa richiama i valori di LiberoMercato, AntiBurocrazia e AntiElite. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraGreenDeal' è attribuita alla destra e riguarda il concetto politico di 'GreenDeal'. Essa richiama i valori di AntiGreen, RealismoPolitico, EconomiaSana e DifesaIndustria. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraDaziInterniUE' è attribuita alla destra e riguarda il concetto politico di 'Dazi'. Essa richiama i valori di DifesaIndustria, LiberoMercato e EconomiaSana. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraBurocrazia' è attribuita alla destra e riguarda il concetto politico di 'Burocrazia'. Essa richiama i valori di AntiBurocrazia e AntiElite. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraAutomotive' è attribuita alla destra e riguarda il concetto politico di 'Automotive'. Essa richiama i valori di DifesaIndustria, EconomiaSana, RealismoPolitico e AntiGreen. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraCambioSesso' è attribuita alla destra e riguarda il concetto politico di 'CambioSesso'. Essa richiama i valori di FamigliaTradizionale, AntiGender e Tradizione. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraPNRR' è attribuita alla destra e riguarda il concetto politico di 'PNRR'. Essa richiama i valori di Responsabilità, DifesaIndustria e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'medio'.
+
+La posizione 'DestraMercatoUnico' è attribuita alla destra e riguarda il concetto politico di 'MercatoUnico'. Essa richiama i valori di DifesaIndustria e LiberoMercato. Il livello di consenso interno alla destra su questa posizione è considerato 'medio'.
+
+La posizione 'DestraAmbiente' è attribuita alla destra e riguarda il concetto politico di 'Ambiente'. Essa richiama i valori di DifesaIndustria, RealismoPolitico e LiberoMercato. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraIndustria' è attribuita alla destra e riguarda il concetto politico di 'Industria'. Essa richiama i valori di DifesaIndustria, LiberoMercato e AntiGreen. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraRinnovabili' è attribuita alla destra e riguarda il concetto politico di 'Rinnovabili'. Essa richiama i valori di DifesaIndustria e AntiGreen. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraGermaniaFrode' è attribuita alla destra e riguarda il concetto politico di 'GermaniaFrode'. Essa richiama i valori di DifesaIndustria e Patriottismo. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraIlva' è attribuita alla destra e riguarda il concetto politico di 'Ilva'. Essa richiama i valori di AntiGreen, DifesaIndustria e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraDifesaEuropea' è attribuita alla destra e riguarda il concetto politico di 'DifesaEuropea'. Essa richiama i valori di Ordine, Riarmo e DifesaNazionale. Il livello di consenso interno alla destra su questa posizione è considerato 'medio'.
+
+La posizione 'DestraMeloni' è attribuita alla destra e riguarda il concetto politico di 'Meloni'. Essa richiama i valori di Ordine, Tradizione e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraSinistra' è attribuita alla destra e riguarda il concetto politico di 'Sinistra'. Essa richiama i valori di Tradizione, AntiComunismo e Sovranismo. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraElite' è attribuita alla destra e riguarda il concetto politico di 'Elite'. Essa richiama i valori di AntiElite e Populismo. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraThunberg' è attribuita alla destra e riguarda il concetto politico di 'Thunberg'. Essa richiama i valori di DifesaIndustria, AntiGreen e Patriottismo. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraDLsicurezza' è attribuita alla destra e riguarda il concetto politico di 'DLsicurezza'. Essa richiama i valori di Ordine, Controllo, Autorità e SicurezzaPubblica. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraImmobiliOccupati' è attribuita alla destra e riguarda il concetto politico di 'ImmobiliOccupati'. Essa richiama i valori di Ordine, Controllo, SicurezzaPubblica e Legalità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraForzeOrdine' è attribuita alla destra e riguarda il concetto politico di 'ForzeOrdine'. Essa richiama i valori di Ordine, Controllo, Autorità e SicurezzaPubblica. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraCarceri' è attribuita alla destra e riguarda il concetto politico di 'Carceri'. Essa richiama i valori di Ordine, Controllo, SicurezzaPubblica e Legalità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraMigranti' è attribuita alla destra e riguarda il concetto politico di 'Migranti'. Essa richiama i valori di Ordine, Tradizione, AntiImmigrazione, SicurezzaPubblica e Legalità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraClima' è attribuita alla destra e riguarda il concetto politico di 'Clima'. Essa richiama i valori di AntiGreen, DifesaIndustria e EconomiaSana. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraCanapa' è attribuita alla destra e riguarda il concetto politico di 'Canapa'. Essa richiama i valori di Legalità e SicurezzaPubblica. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraConcezioneVita' è attribuita alla destra e riguarda il concetto politico di 'ConcezioneVita'. Essa richiama i valori di FamigliaTradizionale, Vita, CentralitàPersona e Religione. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraUteroAffitto' è attribuita alla destra e riguarda il concetto politico di 'UteroAffitto'. Essa richiama i valori di FamigliaTradizionale, Vita, CentralitàPersona e Religione. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraSuicidioAssistito' è attribuita alla destra e riguarda il concetto politico di 'SuicidioAssistito'. Essa richiama i valori di Vita, CentralitàPersona e Religione. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraCurePalliative' è attribuita alla destra e riguarda il concetto politico di 'CurePalliative'. Essa richiama i valori di Vita, CentralitàPersona e Religione. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraMaternitàOmogenitoriali' è attribuita alla destra e riguarda il concetto politico di 'MaternitàOmogenitoriali'. Essa richiama i valori di FamigliaTradizionale, Vita, CentralitàPersona e Religione. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraGiudici' è attribuita alla destra e riguarda il concetto politico di 'Giudici'. Essa richiama i valori di SeparazionePoteri, Tradizione e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'medio'.
+
+La posizione 'DestraFede' è attribuita alla destra e riguarda il concetto politico di 'Fede'. Essa richiama i valori di Religione e Tradizione. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraPremierato' è attribuita alla destra e riguarda il concetto politico di 'Premierato'. Essa richiama i valori di Ordine e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'medio'.
+
+La posizione 'DestraPresidenzialismo' è attribuita alla destra e riguarda il concetto politico di 'Presidenzialismo'. Essa richiama i valori di Ordine, Ordine e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraElite' è attribuita alla destra e riguarda il concetto politico di 'Elite'. Essa richiama i valori di AntiElite, Populismo e Patriottismo. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraCittadinanzaImmigrati' è attribuita alla destra e riguarda il concetto politico di 'CittadinanzaImmigrati'. Essa richiama i valori di AntiImmigrazione e SicurezzaPubblica. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraTFR' è attribuita alla destra e riguarda il concetto politico di 'TFR'. Essa richiama i valori di EconomiaSana e LiberoMercato. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraDifesaAngloamericana' è attribuita alla destra e riguarda il concetto politico di 'DifesaAngloamericana'. Essa richiama i valori di DifesaIndustria, Patriottismo e Riarmo. Il livello di consenso interno alla destra su questa posizione è considerato 'medio'.
+
+La posizione 'DestraGaza' è attribuita alla destra e riguarda il concetto politico di 'Gaza'. Essa richiama i valori di DifesaAngloamericana e ProIsraele. Il livello di consenso interno alla destra su questa posizione è considerato 'medio'.
+
+La posizione 'DestraForzeOrdineManifestazioni' è attribuita alla destra e riguarda il concetto politico di 'ForzeOrdineManifestazioni'. Essa richiama i valori di Ordine, Autorità, SicurezzaPubblica e Controllo. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraGovernoMeloni' è attribuita alla destra e riguarda il concetto politico di 'GovernoMeloni'. Essa richiama i valori di DifesaIndustria, Patriottismo, Sovranismo, AntiElite, Autorità e EconomiaSana. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraTerrorismo' è attribuita alla destra e riguarda il concetto politico di 'Terrorismo'. Essa richiama i valori di DifesaNazionale, SicurezzaPubblica e Autorità. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+La posizione 'DestraDdlZan' è attribuita alla destra e riguarda il concetto politico di 'DdlZan'. Essa richiama i valori di Tradizione e AntiGender. Il livello di consenso interno alla destra su questa posizione è considerato 'alto'.
+
+

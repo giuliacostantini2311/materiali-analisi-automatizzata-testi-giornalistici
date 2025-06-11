@@ -1,0 +1,100 @@
+#Classi
+:ConcettoPolitico è una classe che rappresenta un tema politico trattato, come per esempio l’immigrazione, la sicurezza, l’ambiente o l’economia.
+:ValorePolitico è una classe che identifica un valore o principio ideologico, come la libertà, l’uguaglianza, la sovranità nazionale o la giustizia sociale.
+:OrientamentoPolitico è una classe usata per definire l’orientamento politico generale, come la destra, la sinistra o il centro, a cui si riconducono posizioni e valori.
+:PosizionePolitica è una classe che descrive una presa di posizione specifica su un concetto politico, ad esempio “è favorevole al nucleare” oppure “si oppone alla tassa patrimoniale”.
+:LivelloDiConsensoPolitico è una classe che indica il livello interno di consenso su una data posizione all’interno di uno schieramento o partito politico (ad esempio: alto, basso, divisivo).
+
+
+#Proprietà
+:posizioneDi è una proprietà che collega una posizione politica a un orientamento politico. Ad esempio, se una certa posizione è favorevole alla pena di morte, questa proprietà può indicare che tale posizione appartiene all’area politica di destra.
+:suConcetto è una proprietà che specifica il concetto politico a cui si riferisce una posizione. Per esempio, una posizione può riguardare il concetto di "sicurezza urbana" o di "diritti civili".
+:orientataSuValore è una proprietà che associa una posizione politica a un valore ideologico. Per esempio, sostenere il taglio delle tasse può essere orientato sul valore della "libertà economica".
+:consensoInterno è una proprietà che descrive il livello di consenso interno a uno schieramento o partito rispetto a una posizione politica. I livelli possono essere “alto”, “medio” o “basso”.
+
+#Orientamento
+:Sinistra è un orientamento politico generale. Nel contesto di questa ontologia, rappresenta le posizioni, i concetti e i valori tipicamente associati alla sinistra politica italiana.
+
+#Istanze di Concetto politico
+Il concetto politico 'Migranti' è riconosciuto come tema centrale del dibattito e viene trattato come una categoria semantica all'interno dell'ontologia politica.
+
+Il concetto politico 'Lavoratori' è considerato una categoria rilevante nel dominio delle posizioni politiche, in particolare legata a temi socio-economici.
+
+Il concetto politico 'Ambiente' è classificato come un concetto politico, frequentemente al centro di discussioni relative alla sostenibilità, all’ecologia e alla giustizia climatica.
+
+Il concetto politico 'Patriarcato' è identificato come una nozione politica spesso evocata nei discorsi su parità di genere, femminismo e decostruzione delle strutture di potere.
+
+Il concetto politico 'Razzismo' è incluso come categoria politica e indica un tema di contrasto e denuncia nelle posizioni antidiscriminatorie.
+
+Il concetto politico 'Colonialismo' è trattato come concetto politico e viene spesso richiamato in relazione a temi di giustizia storica, decolonizzazione e rapporti internazionali.
+
+Il concetto politico 'DecretoSicurezza' è una categoria tematica considerata politicamente rilevante, soprattutto in merito a diritti civili, sicurezza e libertà individuali.
+
+Il concetto politico 'Israele' è incluso come entità geopolitica e tematica all’interno del discorso politico, spesso associata a posizioni di politica estera e diritti umani.
+
+Il concetto politico 'Gaza' è riconosciuto come categoria politica, soprattutto in riferimento ai conflitti mediorientali e alle posizioni sull’intervento o la solidarietà internazionale.
+
+Il concetto politico 'Palestinesi' è registrato come concetto politico centrale nel dibattito su diritti umani, autodeterminazione e conflitti internazionali.
+
+Il concetto politico 'Europa' è trattato come ambito politico e istituzionale di riferimento, oggetto di posizioni su integrazione, governance e visione sovranazionale.
+
+Il concetto politico 'Meloni' è riconosciuto come figura politica centrale, oggetto di posizioni, critiche o sostegni, all’interno del panorama ideologico italiano.
+
+Il concetto politico 'Dazi' è una nozione economico-politica, oggetto di posizioni ideologiche relative alla regolazione dei mercati e delle politiche commerciali.
+
+Il concetto politico 'Trump' è trattato come figura politica globale, connotata da una forte polarizzazione e richiamata in posizioni legate a populismo, sovranismo e politica estera.
+
+Il concetto politico 'UniversitaAmericane' è registrato come concetto politico e culturale, evocato in dibattiti su modelli educativi, cultura woke, élite e globalizzazione.
+
+#Istanze di Valore Politico
+
+Il valore politico 'TutelaImmigrazione' rappresenta un principio ideologico orientato alla difesa e promozione dei diritti delle persone migranti, spesso presente nelle posizioni progressiste e solidali.
+
+Il valore politico 'GiustiziaSociale' è considerato un fondamento ideologico che promuove l’uguaglianza, la redistribuzione delle risorse e il contrasto alle disuguaglianze economiche e sociali.
+
+Il valore politico 'DirittiUmani' è una categoria centrale nella semantica politica, evocata in posizioni che pongono al centro la dignità e le libertà fondamentali delle persone.
+
+Il valore politico 'GreenDeal' è adottato come riferimento strategico per le politiche ambientali e di transizione ecologica, in una prospettiva sostenibile e inclusiva.
+
+Il valore politico 'Ambientalismo' costituisce un principio ideologico legato alla difesa della natura, alla sostenibilità ambientale e al contrasto alla crisi climatica.
+
+Il valore politico 'Anticolonialismo' riflette una visione critica dei rapporti di potere ereditati dal colonialismo, promuovendo autodeterminazione, riparazione storica e relazioni eque tra i popoli.
+
+Il valore politico 'Europeismo' è associato a una visione favorevole all’integrazione europea, alla cooperazione sovranazionale e alla costruzione di un’identità politica comune in Europa.
+
+Il valore politico 'Democrazia' rappresenta un pilastro delle ideologie progressiste, fondato sulla partecipazione, la trasparenza e l’equilibrio dei poteri.
+
+Il valore politico 'Antifascismo' è un valore costitutivo della sinistra storica, incentrato sul rifiuto dell’autoritarismo, della repressione e della discriminazione.
+
+Il valore politico 'LibertaDiStudio' indica un principio orientato all’accesso equo all’istruzione, alla critica del merito esclusivo e alla valorizzazione dell’inclusione nei percorsi formativi.
+
+#Istanze di Posizione Politica specifica
+
+La sinistra sulla questione dei migranti assume una posizione politica orientata alla tutela dell’immigrazione, alla giustizia sociale e ai diritti umani, con un livello interno di consenso alto.
+
+La sinistra in tema di ambiente sostiene una posizione fondata sul Green Deal e sui principi dell’ambientalismo, con un consenso interno elevato.
+
+La sinistra sui lavoratori esprime una posizione politica centrata sulla giustizia sociale, con ampio consenso interno.
+
+La sinistra rispetto a patriarcato, razzismo e colonialismo assume una posizione orientata ai diritti umani e all’anticolonialismo, con consenso interno alto.
+
+La sinistra sul conflitto israelo-palestinese (Israele, Gaza, Palestinesi) adotta una posizione fondata sui diritti umani e sull’anticolonialismo, con un consenso interno elevato.
+
+La sinistra su Europa, governo Meloni e dazi manifesta una posizione europeista, con consenso interno medio.
+
+La sinistra sul Decreto Sicurezza si oppone assumendo una posizione fondata sulla democrazia e sull’antifascismo, con consenso interno alto.
+
+La sinistra rispetto a Trump e alle università americane assume una posizione fondata sulla libertà di studio e la democrazia, con consenso interno elevato.
+
+La sinistra sul lavoro precario assume una posizione politica fondata sulla giustizia sociale e i diritti umani, con consenso interno elevato.
+
+La sinistra contro l’autoritarismo (Decreto Sicurezza, Meloni) esprime una posizione orientata alla democrazia e all’antifascismo, con alto consenso interno.
+
+La sinistra a favore del conflitto sociale (riferito ai lavoratori) assume una posizione orientata ai diritti umani e alla giustizia sociale, con consenso interno elevato.
+
+La sinistra contro il colonialismo e in difesa dei migranti sostiene una posizione ideologica fondata sull’anticolonialismo e sui diritti umani, con un forte consenso interno.
+
+La sinistra sul referendum per la cittadinanza ai migranti esprime una posizione favorevole alla tutela dell’immigrazione e alla democrazia, con consenso interno medio.
+
+
+

@@ -1,0 +1,149 @@
+
+@prefix : <http://www.semanticweb.org/politica#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:OntologiaPoliticaSinistra a owl:Ontology ;
+  rdfs:comment "Ontologia politica completa basata su affermazioni della sinistra italiana contemporanea." .
+
+# Classi
+:ConcettoPolitico a owl:Class ; rdfs:comment "Tema politico trattato." .
+:ValorePolitico a owl:Class ; rdfs:comment "Valore o principio ideologico." .
+:OrientamentoPolitico a owl:Class ; rdfs:comment "Orientamento politico generale (Destra, Sinistra...)." .
+:PosizionePolitica a owl:Class ; rdfs:comment "Assunzione di una posizione su un concetto." .
+:LivelloDiConsensoPolitico a owl:Class ; rdfs:comment "Livello interno di consenso politico." .
+
+# Proprietà
+:posizioneDi a owl:ObjectProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range :OrientamentoPolitico ;
+  rdfs:comment "Indica l'orientamento politico di una posizione." .
+
+:suConcetto a owl:ObjectProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range :ConcettoPolitico ;
+  rdfs:comment "Concetto politico a cui si riferisce la posizione." .
+
+:orientataSuValore a owl:ObjectProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range :ValorePolitico ;
+  rdfs:comment "Valore che orienta la posizione." .
+
+:consensoInterno a owl:DatatypeProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range xsd:string ;
+  rdfs:comment "Livello di consenso (alto, medio, basso)." .
+
+# Orientamento
+:Sinistra a :OrientamentoPolitico .
+
+# Concetti
+:Migranti a :ConcettoPolitico .
+:Lavoratori a :ConcettoPolitico .
+:Ambiente a :ConcettoPolitico .
+:Patriarcato a :ConcettoPolitico .
+:Razzismo a :ConcettoPolitico .
+:Colonialismo a :ConcettoPolitico .
+:DecretoSicurezza a :ConcettoPolitico .
+:Israele a :ConcettoPolitico .
+:Gaza a :ConcettoPolitico .
+:Palestinesi a :ConcettoPolitico .
+:Europa a :ConcettoPolitico .
+:Meloni a :ConcettoPolitico .
+:Dazi a :ConcettoPolitico .
+:Trump a :ConcettoPolitico .
+:UniversitaAmericane a :ConcettoPolitico .
+
+# Valori
+:TutelaImmigrazione a :ValorePolitico .
+:GiustiziaSociale a :ValorePolitico .
+:DirittiUmani a :ValorePolitico .
+:GreenDeal a :ValorePolitico .
+:Ambientalismo a :ValorePolitico .
+:Anticolonialismo a :ValorePolitico .
+:Europeismo a :ValorePolitico .
+:Democrazia a :ValorePolitico .
+:Antifascismo a :ValorePolitico .
+:LibertaDiStudio a :ValorePolitico .
+
+# Posizioni
+:SinistraMigranti a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Migranti ;
+  :orientataSuValore :TutelaImmigrazione, :GiustiziaSociale, :DirittiUmani ;
+  :consensoInterno "alto" .
+
+:SinistraAmbiente a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Ambiente ;
+  :orientataSuValore :GreenDeal, :Ambientalismo ;
+  :consensoInterno "alto" .
+
+:SinistraSociale a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Lavoratori ;
+  :orientataSuValore :GiustiziaSociale ;
+  :consensoInterno "alto" .
+
+:SinistraDiritti a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Patriarcato, :Razzismo, :Colonialismo ;
+  :orientataSuValore :DirittiUmani, :Anticolonialismo ;
+  :consensoInterno "alto" .
+
+:SinistraPalestina a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Israele, :Gaza, :Palestinesi ;
+  :orientataSuValore :DirittiUmani, :Anticolonialismo ;
+  :consensoInterno "alto" .
+
+:SinistraEuropa a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Europa, :Meloni, :Dazi ;
+  :orientataSuValore :Europeismo ;
+  :consensoInterno "medio" .
+
+:SinistraSicurezza a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :DecretoSicurezza ;
+  :orientataSuValore :Democrazia, :Antifascismo ;
+  :consensoInterno "alto" .
+
+:SinistraUniversita a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Trump, :UniversitaAmericane ;
+  :orientataSuValore :LibertaDiStudio, :Democrazia ;
+  :consensoInterno "alto" .
+
+
+:SinistraLavoroPrecario a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Lavoratori ;
+  :orientataSuValore :GiustiziaSociale, :DirittiUmani ;
+  :consensoInterno "alto" .
+
+:SinistraControAutoritarismo a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :DecretoSicurezza, :Meloni ;
+  :orientataSuValore :Democrazia, :Antifascismo ;
+  :consensoInterno "alto" .
+
+:SinistraProConflittoSociale a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Lavoratori ;
+  :orientataSuValore :DirittiUmani, :GiustiziaSociale ;
+  :consensoInterno "alto" .
+
+:SinistraControColonialismo a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Colonialismo, :Migranti ;
+  :orientataSuValore :Anticolonialismo, :DirittiUmani ;
+  :consensoInterno "alto" .
+
+:SinistraReferendumCittadinanza a :PosizionePolitica ;
+  :posizioneDi :Sinistra ;
+  :suConcetto :Migranti ;
+  :orientataSuValore :TutelaImmigrazione, :Democrazia ;
+  :consensoInterno "medio" .

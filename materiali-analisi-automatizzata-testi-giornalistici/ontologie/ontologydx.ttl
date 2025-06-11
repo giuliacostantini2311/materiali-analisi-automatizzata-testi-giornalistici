@@ -1,0 +1,400 @@
+
+@prefix : <http://www.semanticweb.org/politica#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:OntologiaPoliticaDestra a owl:Ontology ;
+  rdfs:comment "Ontologia politica completa basata su affermazioni della destra italiana contemporanea." .
+
+# Classi
+:ConcettoPolitico a owl:Class ; rdfs:comment "Tema politico trattato." .
+:ValorePolitico a owl:Class ; rdfs:comment "Valore o principio ideologico." .
+:OrientamentoPolitico a owl:Class ; rdfs:comment "Orientamento politico generale (Destra, Sinistra...)." .
+:PosizionePolitica a owl:Class ; rdfs:comment "Assunzione di una posizione su un concetto." .
+:LivelloDiConsensoPolitico a owl:Class ; rdfs:comment "Livello interno di consenso politico." .
+
+# Proprietà
+:posizioneDi a owl:ObjectProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range :OrientamentoPolitico ;
+  rdfs:comment "Indica l'orientamento politico di una posizione." .
+
+:suConcetto a owl:ObjectProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range :ConcettoPolitico ;
+  rdfs:comment "Concetto politico a cui si riferisce la posizione." .
+
+:orientataSuValore a owl:ObjectProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range :ValorePolitico ;
+  rdfs:comment "Valore che orienta la posizione." .
+
+:consensoInterno a owl:DatatypeProperty ;
+  rdfs:domain :PosizionePolitica ;
+  rdfs:range xsd:string ;
+  rdfs:comment "Livello di consenso (alto, medio, basso)." .
+
+# Orientamento
+:Destra a :OrientamentoPolitico .
+
+
+:Gender a :ConcettoPolitico .
+:LGBTQ a :ConcettoPolitico .
+:CambioSesso a :ConcettoPolitico .
+:UE a :ConcettoPolitico .
+:GreenDeal a :ConcettoPolitico .
+:DaziInterniUe a :ConcettoPolitico .
+:Burocrazia a :ConcettoPolitico .
+:Automotive a :ConcettoPolitico .
+:PNRR a :ConcettoPolitico .
+:MercatoUnico a :ConcettoPolitico .
+:Ambiente a :ConcettoPolitico .
+:Industria a :ConcettoPolitico .
+:Gas a :ConcettoPolitico .
+:Rinnovabili a :ConcettoPolitico .
+:CrisiEnergetica a :ConcettoPolitico .
+:GermaniaFrode a :ConcettoPolitico .
+:Cina a :ConcettoPolitico .
+:Trump a :ConcettoPolitico .
+:DifesaEuropea a :ConcettoPolitico .
+:Meloni a :ConcettoPolitico .
+:Sinistra a :ConcettoPolitico .
+:Elite a :ConcettoPolitico .
+:Thunberg a :ConcettoPolitico .
+:DLsicurezza a :ConcettoPolitico .
+:ImmobiliOccupati a :ConcettoPolitico .
+:ForzeOrdine a :ConcettoPolitico .
+:Carceri a :ConcettoPolitico .
+:Migranti a :ConcettoPolitico .
+:Clima a :ConcettoPolitico .
+:Canapa a :ConcettoPolitico .
+:ConcezioneVita a :ConcettoPolitico .
+:UteroAffitto a :ConcettoPolitico .
+:SuicidioAssistito a :ConcettoPolitico .
+:Feto a :ConcettoPolitico .
+:CurePalliative a :ConcettoPolitico .
+:MaternitàOmogenitoriali a :ConcettoPolitico .
+:Giudici a :ConcettoPolitico .
+:Fede a :ConcettoPolitico .
+:AI a :ConcettoPolitico .
+:Bonus a :ConcettoPolitico .
+:Premierato a :ConcettoPolitico .
+:Presidenzialismo a :ConcettoPolitico .
+:CorteCostituzionale a :ConcettoPolitico .
+:Elite a :ConcettoPolitico .
+:CittadinanzaImmigrati a :ConcettoPolitico .
+:Referendum a :ConcettoPolitico .
+:Risparmi a :ConcettoPolitico .
+:TFR a :ConcettoPolitico .
+:DifesaAngloamericana a :ConcettoPolitico .
+:Gaza a :ConcettoPolitico .
+:ForzeOrdineManifestazioni a :ConcettoPolitico .
+:GovernoMeloni a :ConcettoPolitico .
+:Centrosinistra a :ConcettoPolitico .
+:Terrorismo a :ConcettoPolitico .
+:UniversitàUSA a :ConcettoPolitico .
+:DdlZan a :ConcettoPolitico .
+:TransSport a :ConcettoPolitico .
+:DissensoSelettivo a :ConcettoPolitico .
+
+:Ordine a :ValorePolitico .
+:Sovranismo a :ValorePolitico .
+:FamigliaTradizionale a :ValorePolitico .
+:LiberoMercato a :ValorePolitico .
+:AntiBurocrazia a :ValorePolitico .
+:DifesaNazionale a :ValorePolitico .
+:Vita a :ValorePolitico .
+:Religione a :ValorePolitico .
+:SicurezzaPubblica a :ValorePolitico .
+:AntiGreen a :ValorePolitico .
+:DifesaIndustria a :ValorePolitico .
+:AntiGender a :ValorePolitico .
+:Autorità a :ValorePolitico .
+:CentralitàPersona a :ValorePolitico .
+:Tradizione a :ValorePolitico .
+:Legalità a :ValorePolitico .
+:Responsabilità a :ValorePolitico .
+:AntiImmigrazione a :ValorePolitico .
+:Controllo a :ValorePolitico .
+:EconomiaSana a :ValorePolitico .
+:Patriottismo a :ValorePolitico .
+:Anticomunismo a :ValorePolitico .
+:Onore a :ValorePolitico .
+:RealismoPolitico a :ValorePolitico .
+:Riarmo a :ValorePolitico .
+:AntiElite a :ValorePolitico .
+:Populismo a :ValorePolitico .
+:SeparazionePoteri a :ValorePolitico .
+:ProIsraele a :ValorePolitico .
+
+:DestraGender a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Gender ;
+  :orientataSuValore :Ordine, :Tradizione, :Autorità ;
+  :consensoInterno "alto" .
+
+:DestraLGBTQ a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :LGBTQ ;
+  :orientataSuValore :DifesaIndustria, :Patriottismo ;
+  :consensoInterno "alto" .
+
+:DestraUE a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :UE ;
+  :orientataSuValore :LiberoMercato, :AntiBurocrazia, :AntiElite ;
+  :consensoInterno "alto" .
+
+:DestraGreenDeal a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :GreenDeal ;
+  :orientataSuValore :AntiGreen, :RealismoPolitico, :EconomiaSana, :DifesaIndustria ;
+  :consensoInterno "alto" .
+
+:DestraDaziInterniUE a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Dazi ;
+  :orientataSuValore :DifesaIndustria, :LiberoMercato, :EconomiaSana ;
+  :consensoInterno "alto" .
+
+:DestraBurocrazia a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Burocrazia ;
+  :orientataSuValore :AntiBurocrazia, :AntiElite;
+  :consensoInterno "alto" .
+
+:DestraAutomotive a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Automotive ;
+  :orientataSuValore :DifesaIndustria, :EconomiaSana, :RealismoPolitico, :AntiGreen ;
+  :consensoInterno "alto" .
+
+:DestraCambioSesso a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :CambioSesso ;
+  :orientataSuValore :FamigliaTradizionale, :AntiGender, :Tradizione ;
+  :consensoInterno "alto" .
+
+:DestraPNRR a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :PNRR ;
+  :orientataSuValore :Responsabilità, :DifesaIndustria, :Autorità ;
+  :consensoInterno "medio" .
+
+:DestraMercatoUnico a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :MercatoUnico ;
+  :orientataSuValore :DifesaIndustria, :LiberoMercato ;
+  :consensoInterno "medio" .
+
+:DestraAmbiente a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Ambiente ;
+  :orientataSuValore :DifesaIndustria, :RealismoPolitico, :LiberoMercato ;
+  :consensoInterno "alto" .
+
+:DestraIndustria a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Industria ;
+  :orientataSuValore :DifesaIndustria, :LiberoMercato, :AntiGreen ;
+  :consensoInterno "alto" .
+
+:DestraRinnovabili a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Rinnovabili ;
+  :orientataSuValore :DifesaIndustria, :AntiGreen ;
+  :consensoInterno "alto" .
+
+:DestraGermaniaFrode a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :GermaniaFrode ;
+  :orientataSuValore :DifesaIndustria, :Patriottismo ;
+  :consensoInterno "alto" .
+
+:DestraIlva a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Ilva ;
+  :orientataSuValore :AntiGreen, :DifesaIndustria, :Autorità ;
+  :consensoInterno "alto" .
+
+:DestraDifesaEuropea a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :DifesaEuropea ;
+  :orientataSuValore :Ordine, :Riarmo, :DifesaNazionale ;
+  :consensoInterno "medio" .
+
+:DestraMeloni a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Meloni ;
+  :orientataSuValore :Ordine, :Tradizione, :Autorità ;
+  :consensoInterno "alto" .
+
+:DestraSinistra a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Sinistra ;
+  :orientataSuValore :Tradizione, :AntiComunismo, :Sovranismo ;
+  :consensoInterno "alto" .
+
+:DestraElite a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Elite ;
+  :orientataSuValore :AntiElite, :Populismo ;
+  :consensoInterno "alto" .
+
+:DestraThunberg a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Thunberg ;
+  :orientataSuValore :DifesaIndustria, :AntiGreen, :Patriottismo ;
+  :consensoInterno "alto" .
+
+:DestraDLsicurezza a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :DLsicurezza ;
+  :orientataSuValore :Ordine, :Controllo, :Autorità, :SicurezzaPubblica ;
+  :consensoInterno "alto" .
+
+:DestraImmobiliOccupati a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :ImmobiliOccupati ;
+  :orientataSuValore :Ordine, :Controllo, :SicurezzaPubblica, :Legalità ;
+  :consensoInterno "alto" .
+
+:DestraForzeOrdine a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :ForzeOrdine ;
+  :orientataSuValore :Ordine, :Controllo, :Autorità, :SicurezzaPubblica ;
+  :consensoInterno "alto" .
+
+:DestraCarceri a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Carceri ;
+  :orientataSuValore :Ordine, :Controllo, :SicurezzaPubblica, :Legalità ;
+  :consensoInterno "alto" .
+
+:DestraMigranti a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Migranti ;
+  :orientataSuValore :Ordine, :Tradizione, :AntiImmigrazione, :SicurezzaPubblica, :Legalità ;
+  :consensoInterno "alto" .
+
+:DestraClima a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Clima ;
+  :orientataSuValore :AntiGreen, :DifesaIndustria, :EconomiaSana ;
+  :consensoInterno "alto" .
+
+:DestraCanapa a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Canapa ;
+  :orientataSuValore :Legalità, :SicurezzaPubblica ;
+  :consensoInterno "alto" . 
+
+:DestraConcezioneVita a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :ConcezioneVita ;
+  :orientataSuValore :FamigliaTradizionale, :Vita, :CentralitàPersona, :Religione ;
+  :consensoInterno "alto" .
+
+:DestraUteroAffitto a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :UteroAffitto ;
+  :orientataSuValore :FamigliaTradizionale, :Vita, :CentralitàPersona, :Religione ;
+  :consensoInterno "alto" .
+
+:DestraSuicidioAssistito a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :SuicidioAssistito ;
+  :orientataSuValore :Vita, :CentralitàPersona, :Religione ;
+  :consensoInterno "alto" .
+
+:DestraCurePalliative a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :CurePalliative ;
+  :orientataSuValore :Vita, :CentralitàPersona, :Religione ;
+  :consensoInterno "alto" .
+
+:DestraMaternitàOmogenitoriali a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :MaternitàOmogenitoriali ;
+  :orientataSuValore :FamigliaTradizionale, :Vita, :CentralitàPersona, :Religione ;
+  :consensoInterno "alto" .
+
+:DestraGiudici a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Giudici ;
+  :orientataSuValore :SeparazionePoteri, :Tradizione, :Autorità ;
+  :consensoInterno "medio" .
+
+:DestraFede a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Fede ;
+  :orientataSuValore :Religione, :Tradizione ;
+  :consensoInterno "alto" .
+
+:DestraPremierato a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Premierato ;
+  :orientataSuValore :Ordine, :Autorità ;
+  :consensoInterno "medio" .
+
+:DestraPresidenzialismo a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Presidenzialismo ;
+  :orientataSuValore :Ordine, :Ordine, :Autorità ;
+  :consensoInterno "alto" .
+
+:DestraElite a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Elite ;
+  :orientataSuValore :AntiElite, :Populismo, :Patriottismo ;
+  :consensoInterno "alto" .
+
+:DestraCittadinanzaImmigrati a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :CittadinanzaImmigrati ;
+  :orientataSuValore :AntiImmigrazione, :SicurezzaPubblica ;
+  :consensoInterno "alto" .
+
+:DestraTFR a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :TFR ;
+  :orientataSuValore :EconomiaSana, :LiberoMercato ;
+  :consensoInterno "alto" .
+
+:DestraDifesaAngloamericana a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :DifesaAngloamericana ;
+  :orientataSuValore :DifesaIndustria, :Patriottismo, :Riarmo ;
+  :consensoInterno "medio" .
+
+:DestraGaza a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Gaza ;
+  :orientataSuValore :DifesaAngloamericana, :ProIsraele ;
+  :consensoInterno "medio" .
+
+:DestraForzeOrdineManifestazioni a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :ForzeOrdineManifestazioni ;
+  :orientataSuValore :Ordine, :Autorità, :SicurezzaPubblica, :Controllo ;
+  :consensoInterno "alto" .
+
+:DestraGovernoMeloni a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :GovernoMeloni ;
+  :orientataSuValore :DifesaIndustria, :Patriottismo, :Sovranismo, :AntiElite, :Autorità, :EconomiaSana ;
+  :consensoInterno "alto" .
+
+:DestraTerrorismo a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :Terrorismo ;
+  :orientataSuValore :DifesaNazionale, :SicurezzaPubblica, :Autorità ;
+  :consensoInterno "alto" .
+
+:DestraDdlZan a :PosizionePolitica ;
+  :posizioneDi :Destra ;
+  :suConcetto :DdlZan ;
+  :orientataSuValore :Tradizione, :AntiGender ;
+  :consensoInterno "alto" .
